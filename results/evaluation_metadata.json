@@ -1,0 +1,12 @@
+{
+  "final_checkpoint": "generalisation_model_v2.pth",
+  "checkpoint_sha256": "a02fcdca54bfa3ed142381d638c1114d9741a1c71a2376860d24965cdeebeaac",
+  "class_to_idx": {
+    "FAKE": 0,
+    "REAL": 1
+  },
+  "ai_probability_index": 0,
+  "default_threshold": 0.5,
+  "demo_calibrated_threshold": 0.05,
+  "threshold_note": "0.05 was selected on the provided demonstration validation subset and is not claimed to be universally optimal."
+}

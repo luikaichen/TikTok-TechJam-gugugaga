@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
+
+# Local datasets / caches
+cross_dataset/
+_wildfake_temp/
+metadata_wildfake/
+*.zip
+
+# Large per-image evaluation artifacts that are not needed in the public repo
+predictions_long.csv
