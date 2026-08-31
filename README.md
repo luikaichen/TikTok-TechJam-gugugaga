@@ -279,3 +279,26 @@ Generalisation V2 still misses a subset of highly realistic AI-generated images.
 - Public inference script: **DONE**
 
 **Final recommendation: freeze V2 and expose raw P(AI), with threshold calibration kept as optional decision logic.**
+
+---
+
+## Web Demo
+
+A lightweight Streamlit interface is included for interactive testing.
+
+### Run locally
+
+```bash
+pip install -r requirements.txt
+streamlit run demo/app.py
+```
+
+Then open the local URL shown by Streamlit and upload an image.
+
+The demo displays:
+
+- Raw AI probability, `P(AI)`
+- A calibrated binary demo decision
+- The frozen Generalisation V2 checkpoint details
+
+The demo threshold is `0.05`. This threshold is presentation / decision logic only and does not modify the raw model probability.
