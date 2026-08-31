@@ -1,0 +1,4 @@
+model_name,clean_accuracy,worst_case_accuracy,mean_robust_accuracy,worst_case_condition
+Baseline V0,0.87815,0.50205,0.7132035714285714,noise 0.1
+Robust V1,0.96405,0.8486,0.9328535714285714,resize 0.25
+Generalisation V2,0.9648,0.8664,0.9395571428571429,resize 0.25
